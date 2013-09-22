@@ -252,6 +252,7 @@
 		C9E865FC17E9336000B7035C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
@@ -264,6 +265,7 @@
 		C9E865FD17E9336000B7035C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
@@ -292,6 +294,7 @@
 				C9E865FD17E9336000B7035C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
