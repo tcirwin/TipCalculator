@@ -9,7 +9,7 @@
 #import "TipViewController.h"
 
 @interface TipViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *billAmount;
+@property (weak, nonatomic) IBOutlet UITextField *billAmountField;
 @property (weak, nonatomic) IBOutlet UILabel *tipAmount;
 @property (weak, nonatomic) IBOutlet UILabel *total;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipPercent;
@@ -50,7 +50,7 @@
 }
 
 - (void)updateTip {
-    float bill = _billAmount.text.floatValue;
+    float bill = _billAmountField.text.floatValue;
     
     NSArray *tipValues = @[@(0.1), @(0.15), @(0.2)];
     
